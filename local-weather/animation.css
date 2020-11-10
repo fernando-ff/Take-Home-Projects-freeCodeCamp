@@ -1,0 +1,255 @@
+.title {
+    animation-name: title-container;
+    animation-duration: 1000ms; 
+}
+.main-container {
+    animation-name: main-container;
+    animation-duration: 150ms;
+}
+.humidity-container {
+    animation-name: humidity-container;
+    animation-duration: 200ms;
+
+}
+.local-container {
+    animation-name: local-container;
+    animation-duration: 250ms;
+}
+.city-container {
+    animation-name: city-container;
+    animation-duration: 300ms;
+
+}
+.weather-container {
+    animation-name: weather-container;
+    animation-duration: 350ms;
+
+}
+.description-container {
+    animation-name: description-container;
+    animation-duration: 400ms;
+
+}
+.wind-speed-container {
+    animation-name: wind-speed-container;
+    animation-duration: 450ms;
+
+}
+.wind-deg-container {
+    animation-name: wind-deg-container;
+    animation-duration: 500ms;
+
+}
+
+@keyframes title-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes main-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes humidity-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes local-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes city-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes weather-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes description-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes wind-speed-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes wind-deg-container{
+    0%{
+        top:4px;
+        opacity: 0.1;
+    }
+    25%{
+        top:3px;
+        opacity: 0.25;
+    }
+    50%{
+        top: 2px;
+        opacity: 0.5;
+    }
+    75%{
+        top:1px;
+        opacity: 0.75;
+    }
+    100%{
+        top:0px;
+        opacity:1;
+    }
+}
+@keyframes container{
+    0%{
+        top: 2px;
+    }
+    25%{
+        top: 0px;
+    }
+    50%{
+        top: -2px;
+    }
+    100%{
+        top: 0px;
+    }
+}

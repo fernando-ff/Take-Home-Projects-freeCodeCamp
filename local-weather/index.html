@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
     <title>Local Weather</title>
 </head>
 <body>
-    <div class="title">
+    <script src="script.js"></script>
+
+    <div class="top-container">
         <div class="title-container">
-            <h1>
+            <h1 class="title">
                 Local Weather
             </h1>
         </div>
@@ -19,31 +22,30 @@
         <div class="container main-container">
                 <strong>Temperature </strong><p id="temp"></p>
         </div>
-        <div class="container">
+        <div class="container humidity-container">
             <strong>Humidity </strong><p id="humidity"></p>
         </div>
         <div class="container local-container">
-                <strong>Country</strong><p id="country"></p>
+            <strong>Country</strong><p id="country"></p>
         </div>
-        <div class="container">
+        <div class="container city-container">
             <strong>City</strong><p id="city"></p>
         </div>
         <div class="container weather-container">
                 <strong>Main</strong><p id="main"></p>
         </div>
-        <div class="container">
+        <div class="container description-container">
             <strong>Description</strong><p id="description"></p>
 
         </div>
-        <div class="container wind-container">
+        <div class="container wind-speed-container">
                 <strong>Wind speed</strong><p id="wind-speed"></p>
         </div>
-        <div class="container">
+        <div class="container wind-deg-container">
             <strong>Wind degree</strong><p id="wind-degree"></p>
 
         </div>
 
     </main>
-    <script src="script.js"></script>
 </body>
 </html>

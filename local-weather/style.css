@@ -10,16 +10,27 @@
     --complementary:#01579B;
     --secondary:#E0F2F1;
 }
-body{
+html,body{
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    overflow: hidden;
+
 }
 p{
+    display: block;
+    position: absolute;
+    bottom: 18px;
     font-weight: 500;
     font-size: 38px;
+    word-wrap: wrap;
+    word-break: break-all
+}
+h1{
+    color: #fff;
 }
 strong {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
     margin: 0 4px 0 0;
 }
 main{
@@ -34,15 +45,18 @@ main:first-child{
     margin-top: 8px;
 }
 
-/* #description {
-    font-size: 32px;
-    text-align: justify;
-} */
-.title{
+#description {
+    font-size: 26px;
+    text-align: center;
+}
+#city{
+    font-size: 26px;
+}
+.top-container{
     position: fixed;
     top: 0;
     left: 0;
-
+    z-index: 2;
     height: 48px;
     width: 100%;
 
@@ -63,7 +77,7 @@ main:first-child{
 
 .container {
     position: relative;
-
+    z-index: 1;
     border: 1px rgb(199, 199, 199) solid;
     border-radius: 4px;
 
@@ -73,7 +87,6 @@ main:first-child{
     justify-content: center;
 
     margin: 4px;
-    /* padding: 4px; */
     width: 46%;
     height: 108px;
 
@@ -85,9 +98,35 @@ main:first-child{
     top: 8px;
     left: 8px;
 }
-
+.container:hover{
+    box-shadow: 0px 8px 12px 2px rgb(199, 199, 199); 
+    transform: scale(1.05);
+}
 .container-item{
     display: flex;
     margin: 4px 0;
 
+}
+
+@media(min-width:1024px)
+{
+    main{
+        margin-top: 180px;
+    }
+    .container{
+        width: 25%;
+        margin: 8px;
+    }
+    #description {
+        font-size: 38px;
+    }
+    #city{
+        font-size: 38px;
+    }
+    /* strong{ */
+        /* font-size: 28px; */
+    /* } */
+    /* p{ */
+        /* font-size: 118px; */
+    /* } */
 }
